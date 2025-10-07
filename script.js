@@ -22,6 +22,8 @@ window.addEventListener('load', () => {
     if (savedColor) {
         colorCode.textContent = savedColor;
         document.body.style.backgroundColor = savedColor;
+    }else{
+        randomColor();
     }
 })
 
